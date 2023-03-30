@@ -1,14 +1,15 @@
 package org.example.homework_31;
 
-public class circle {
+public class Circle {
 
     double radius;
     public static void main(String[] args) {
-     circle circle1= new circle (10);
-     calculateArea(10);
-
+     Circle circle1= new Circle (10);
+      calculateArea(circle1.radius);
     }
-    public circle (double radius ){
+
+
+    public Circle (double radius ){
          this.radius = radius ;
 
 }
